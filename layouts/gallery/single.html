@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<section class="page">
+
+  <h1>{{ .Title }}</h1>
+
+  <div class="photo-gallery" id="photo-gallery">
+
+    {{ range (os.ReadDir "static/images/gallery") }}
+
+      {{ $ext := lower (path.Ext .Name) }}
+
+      {{ if in (slice ".jpg" ".jpeg" ".png" ".webp") $ext }}
+
+        <img src="/images/gallery/{{ .Name }}" loading="lazy">
+
+      {{ end }}
+
+    {{ end }}
+
+  </div>
+
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.getElementById("photo-gallery");
+  const images = Array.from(gallery.children);
+
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
+
+  images.forEach(image => gallery.appendChild(image));
+});
+</script>
+
+{{ end }}

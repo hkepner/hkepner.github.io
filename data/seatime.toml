@@ -1,0 +1,174 @@
+# Sea time record
+# Add new cruises as a new [[cruise]] block.
+# The website will calculate total days at sea automatically.
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Tridens"
+start = "2026-02-09"
+end = "2026-02-20"
+days = 12
+purpose = "CTDs, plankton nets, fish trawls"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-11-10"
+end = "2025-11-14"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "BlueEYE"
+location = "Oosterschelde"
+ship = "RV Wim Wolff"
+start = "2025-10-15"
+end = "2025-10-18"
+days = 4
+purpose = "CTDs, ADCP, flow-thru monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-08-11"
+end = "2025-08-15"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-07-28"
+end = "2025-08-01"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Pelagia"
+start = "2025-06-25"
+end = "2025-07-06"
+days = 12
+purpose = "ISIIS transects, plankton nets, monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-06-02"
+end = "2025-06-06"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-04-28"
+end = "2025-05-02"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "MONS"
+location = "North Sea"
+ship = "RV Zirfaea"
+start = "2025-03-03"
+end = "2025-03-07"
+days = 5
+purpose = "CTDs, plankton nets, flow-thru monitoring container"
+
+[[cruise]]
+project = "NOAA OE"
+location = "Gulf of Alaska"
+ship = "RV Sikuliaq"
+start = "2024-05-12"
+end = "2024-05-22"
+days = 11
+purpose = "Seamounts work, ISIIS-DPI deployments, plankton nets"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Sikuliaq"
+start = "2024-04-25"
+end = "2024-05-11"
+days = 17
+purpose = "ISIIS-DPI deployments, plankton net sampling"
+
+[[cruise]]
+project = "CCE LTER"
+location = "California Current"
+ship = "RV Roger Revelle"
+start = "2024-02-16"
+end = "2024-03-11"
+days = 25
+purpose = "Invited collaborator, ISIIS-DPI deployments"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Tiglax"
+start = "2023-09-11"
+end = "2023-09-21"
+days = 11
+purpose = "Zooplankton net sampling"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Kilo Moana"
+start = "2023-06-27"
+end = "2023-07-16"
+days = 20
+purpose = "ISIIS-DPI deployments, plankton net sampling"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Sikuliaq"
+start = "2023-04-19"
+end = "2023-05-09"
+days = 21
+purpose = "ISIIS-DPI deployments, plankton net sampling"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Tiglax"
+start = "2022-09-08"
+end = "2022-09-19"
+days = 12
+purpose = "Zooplankton net sampling"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Sikuliaq"
+start = "2022-07-07"
+end = "2022-07-27"
+days = 21
+purpose = "ISIIS-DPI deployments, plankton net sampling"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Sikuliaq"
+start = "2022-04-09"
+end = "2022-05-09"
+days = 31
+purpose = "ISIIS-DPI sea trials/deployments, plankton nets"
+
+[[cruise]]
+project = "NGA LTER"
+location = "Gulf of Alaska"
+ship = "RV Tiglax"
+start = "2021-09-10"
+end = "2021-09-27"
+days = 18
+purpose = "Volunteer, plankton net sampling"

@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+.site-header {
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+.hero {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8rem 3rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 700px;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 3rem;
+}
+
+.sea-summary {
+  margin: 2.5rem 0 3rem;
+}
+
+.sea-stat {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.sea-number {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.sea-label {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sea-table-wrapper {
+  overflow-x: auto;
+}
+
+.sea-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.sea-table th,
+.sea-table td {
+  text-align: left;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.sea-table th {
+  font-weight: 600;
+}
+
+.sea-table td:nth-child(5),
+.sea-table th:nth-child(5) {
+  text-align: center;
+}
+
+/* About page */
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem 0 5rem;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.about-intro {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.about-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.about-gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-photo img {
+    height: 400px;
+  }
+
+  .about-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .about-gallery img {
+    height: auto;
+  }
+}
+
+/* Photo gallery */
+
+.photo-gallery {
+  columns: 3;
+  column-gap: 12px;
+  margin-top: 2rem;
+}
+
+.photo-gallery img {
+  width: 100%;
+  display: block;
+  margin-bottom: 12px;
+  break-inside: avoid;
+  border-radius: 6px;
+}
+
+@media (max-width: 900px) {
+  .photo-gallery {
+    columns: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-gallery {
+    columns: 1;
+  }
+}

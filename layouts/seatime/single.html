@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<section class="page">
+
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  {{ $totalDays := 0 }}
+  {{ range site.Data.seatime.cruise }}
+    {{ $totalDays = add $totalDays .days }}
+  {{ end }}
+
+  <section class="sea-summary">
+    <div class="sea-stat">
+      <div class="sea-number">{{ $totalDays }}</div>
+      <div class="sea-label">Days at Sea</div>
+    </div>
+  </section>
+
+  <section class="sea-table-wrapper">
+    <table class="sea-table">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Location</th>
+          <th>Research Vessel</th>
+          <th>Dates</th>
+          <th>Days</th>
+          <th>Operations</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {{ range sort site.Data.seatime.cruise "start" "desc" }}
+        <tr>
+          <td>{{ .project }}</td>
+          <td>{{ .location }}</td>
+          <td><em>{{ .ship }}</em></td>
+          <td>
+            {{ time.Format "Jan 2, 2006" .start }}
+            –
+            {{ time.Format "Jan 2, 2006" .end }}
+          </td>
+          <td>{{ .days }}</td>
+          <td>{{ .purpose }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </section>
+
+</section>
+
+{{ end }}

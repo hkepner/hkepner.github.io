@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gallery</title>
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/research/">Research</a>
+    <a href="/projects/">Projects</a>
+    <a href="/publications/">Publications</a>
+    <a href="/seatime/">Seatime</a>
+    <a href="/gallery/">Gallery</a>
+  </nav>
+</header>
+
+<main>
+  
+
+<section class="page">
+
+  <h1>Gallery</h1>
+
+  <div class="photo-gallery" id="photo-gallery">
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/calvet_working.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/chenega1.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/chenega2.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/ctd_working.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi.png" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_deployment.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_ondeck1.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_ondeck2.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_working1.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_working2.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/dpi_working3.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/drysuit.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/holding_ice.JPEG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/nioz_smallboat1.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/nioz_smallboat2.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/nioz_tidepools1.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/nioz_tidepools2.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/nioz_wp2.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/plankton_samples.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/sample_transport.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/sikuliaq1.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/tiglax_ctd.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/towie_deployment.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/ugami_hat.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/ugami_seining.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/wemeldinge_sailing.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/whittier_planktonnet.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/wimwolff_ctd.jpeg" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/zirfaea_jellynet.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/zirfaea_working.JPG" loading="lazy">
+
+      
+
+    
+
+      
+
+      
+
+        <img src="/images/gallery/zodiac_course.JPG" loading="lazy">
+
+      
+
+    
+
+  </div>
+
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.getElementById("photo-gallery");
+  const images = Array.from(gallery.children);
+
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
+
+  images.forEach(image => gallery.appendChild(image));
+});
+</script>
+
+
+</main>
+
+</body>
+</html>
