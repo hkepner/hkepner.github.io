@@ -24,17 +24,15 @@ Much of my research has taken place at sea, working with oceanographic instrumen
 
 <div class="about-gallery">
 
-<img src="/images/ctd_working.JPG" alt="Working with a CTD rosette during fieldwork">
-
-<img src="/images/dpi_working3.JPG" alt="Working on an in situ imaging system aboard a research vessel">
-
-<img src="/images/holding_ice.jpeg" alt="Working on an in situ imaging system aboard a research vessel">
-
-<img src="/images/zodiac_course.JPG" alt="Working on an in situ imaging system aboard a research vessel">
-
-<img src="/images/nioz_smallboat1.JPG" alt="Working on an in situ imaging system aboard a research vessel">
-
-<img src="/images/zirfaea_jellynet.JPG" alt="Fieldwork in Alaska">
-
+<img src="/images/gallery/nioz_tidepools2.JPG" alt=" ">
+<img src="/images/gallery/ctd_working.JPG" alt="Working with a CTD rosette during fieldwork">
+<img src="/images/gallery/dpi_working3.JPG" alt="Working on an in situ imaging system aboard a research vessel">
+<img src="/images/gallery/holding_ice.JPEG" alt="Working on an in situ imaging system aboard a research vessel">
+<img src="/images/gallery/zodiac_course.JPG" alt="Working on an in situ imaging system aboard a research vessel">
+<img src="/images/gallery/nioz_smallboat1.JPG" alt="Working on an in situ imaging system aboard a research vessel">
+<img src="/images/gallery/zirfaea_jellynet.JPG" alt="Fieldwork in Alaska">
 
 </div>
+
+
+
