@@ -6,7 +6,7 @@ title: "About"
 
 <div class="about-photo">
 
-<img src="/images/nioz_tidepools2.JPG" alt=" ">
+<img src="/images/gallery/nioz_tidepools2.JPG" alt=" ">
 
 </div>
 
@@ -24,7 +24,6 @@ Much of my research has taken place at sea, working with oceanographic instrumen
 
 <div class="about-gallery">
 
-<img src="/images/gallery/nioz_tidepools2.JPG" alt=" ">
 <img src="/images/gallery/ctd_working.JPG" alt="Working with a CTD rosette during fieldwork">
 <img src="/images/gallery/dpi_working3.JPG" alt="Working on an in situ imaging system aboard a research vessel">
 <img src="/images/gallery/holding_ice.JPEG" alt="Working on an in situ imaging system aboard a research vessel">
