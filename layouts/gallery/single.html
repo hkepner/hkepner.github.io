@@ -22,6 +22,83 @@
 
 </section>
 
+<style>
+
+/* Override the site's normal narrow page container */
+.page {
+  width: 95vw !important;
+  max-width: 1800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Wide masonry gallery */
+.photo-gallery {
+  width: 100% !important;
+  max-width: none !important;
+
+  columns: 5;
+  column-gap: 12px;
+}
+
+/* Keep each photo's natural proportions */
+.photo-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 12px 0;
+
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+
+  border-radius: 5px;
+}
+
+
+/* Medium screens */
+@media (max-width: 1400px) {
+  .photo-gallery {
+    columns: 4;
+  }
+}
+
+
+/* Smaller screens */
+@media (max-width: 1000px) {
+  .photo-gallery {
+    columns: 3;
+  }
+}
+
+
+/* Tablets */
+@media (max-width: 700px) {
+  .page {
+    width: 96vw !important;
+  }
+
+  .photo-gallery {
+    columns: 2;
+    column-gap: 8px;
+  }
+
+  .photo-gallery img {
+    margin-bottom: 8px;
+  }
+}
+
+
+/* Phones */
+@media (max-width: 450px) {
+  .photo-gallery {
+    columns: 1;
+  }
+}
+
+</style>
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = document.getElementById("photo-gallery");

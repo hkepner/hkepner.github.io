@@ -1,5 +1,5 @@
 ---
-title: "Gallery"
+title: "In the Field"
 draft: false
 type: "gallery"
 ---
