@@ -1,10 +1,8 @@
 +++
 date = '2026-08-21T20:31:32-04:00'
 draft = false
-title = 'Projects'
+title = 'Research'
 +++
-
-My work spans biological oceanography, marine imaging, scientific computing, and the development and application of oceanographic observing technologies.
 
 ## Current Projects
 
